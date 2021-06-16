@@ -1,0 +1,19 @@
+{
+    "name": "diancore/e-chat",
+    "description": "Web Chat",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "diancore",
+            "email": "tribidpahi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "Controllers"
+        }
+    }
+}
