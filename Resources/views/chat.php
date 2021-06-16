@@ -30,7 +30,7 @@
                 <div id="chat">
                     <section class="chat-messages">
                         <?php while ($msg = mysqli_fetch_assoc($msgs)) { ?>
-                            <p class="message"><?= $msg['message_author'] ?>: <?= $msg['message_text'] ?></p>
+                            <p class="message"><?= $msg['created_at'] ?> <?= $msg['message_author'] ?>: <?= $msg['message_text'] ?></p>
                         <?php } ?>
                     </section>
                 </div>
